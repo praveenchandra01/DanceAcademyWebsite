@@ -1,0 +1,26 @@
+//- layout.pug
+html
+  head
+    title Danzik Dance Academy
+    link(rel="shortcut icon", href="static/img/2.png")
+
+    block scripts
+    block style
+
+  body
+    nav#navbar.top
+            ul
+                div#logo
+                    img(src='static/img/logo.png')
+                    | DANZIK ACADMEY
+                li #[a(href='/') Home]
+                li #[a(href='/class') Class Schedule]
+                li #[a(href='/') Services]
+                li #[a(href='/') About us]
+                li #[a(href='/contact') Contact us]
+                div.login
+                 a(href="/") Log in/
+                 a(href="/") Sign in
+    block content
+  footer
+    | Copyright Ⓒ 2020 DanzikDanceAcadmey | All rights reserved 

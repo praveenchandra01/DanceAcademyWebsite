@@ -1,0 +1,137 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+#navbar {
+  background-color: #ff9faf;
+  height: 65px;
+}
+#logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  margin: 8px 130px 7px 37px;
+}
+#logo img {
+  height: 36px;
+  filter: invert(0);
+  font-size: 20px;
+}
+#navbar ul {
+  display: flex;
+  align-items: center;
+}
+#navbar li {
+  list-style: none;
+  padding: 15px 20px;
+}
+#navbar li a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: black;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  transition: 0.5s;
+  /* font-weight: bold; */
+}
+#navbar li a:hover {
+  color: white;
+}
+.login{
+  margin-left: 155px
+}
+.login a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #0a0a0a;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#introsection {
+  height: 570px;
+  background: url("/static/bg.jpg") center/cover no-repeat;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 80px;
+  flex-direction: column;
+  padding-top: 192px;
+  font-family: "Shadows Into Light", cursive;
+}
+#heading {
+  font-size: 60px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 100px;
+}
+#heading2 {
+  font-size: 30px;
+  font-weight: 100;
+  font-family: "Shadows Into Light", cursive;
+  color: rgb(231, 63, 72);
+  margin-bottom: 35px;
+}
+
+#missionsection {
+  height: 600px;
+  text-align: center;
+  padding-top: 60px;
+  background-color: rgb(221, 222, 223);
+}
+#missionsection h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  padding-bottom: 10px;
+  margin-top: 30px;
+}
+.card {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 240px;
+  width: 380px;
+  margin: 30px;
+}
+.card h3 {
+  padding: 15px;
+  font-size: 29px;
+  color: rgb(89, 89, 253);
+  /* border-bottom: 2px solid #8b6bff; */
+  font-family: 'Montserrat', sans-serif;
+}
+.card-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-img {
+  height: 100px;
+  padding: 5px 14px;
+}
+.card-img img {
+  height: 170px;
+}
+.card-content p {
+  font-size: 18px;
+  color: gray;
+}
+
+footer {
+  height: 50px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}

@@ -1,0 +1,52 @@
+doctype html
+html
+    head
+        title Danzik Dance Academy
+        link(rel="shortcut icon", href="static/img/2.png")
+        style
+            include ../static/style.css
+    body
+        nav#navbar.top
+            ul
+                div#logo
+                    img(src='static/img/logo.png')
+                    | DANZIK ACADMEY
+                li #[a(href='/') Home]
+                li #[a(href='/') Class Schedule]
+                li #[a(href='/') Services]
+                li #[a(href='/') About us]
+                li #[a(href='/') Contact us]
+
+        section#introsection
+           div#heading Welcome to Danzik Dance Academy
+       
+
+        section#missionsection
+            h2 Dance Styles
+            div#heading2 Eat Sleep Dance Repeat
+
+            div.card
+                h3 Dance Perfection
+                div.card-box
+                    div.card-img
+                        img(src='static/img/1.png')
+                    div.card-content
+                        p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, in?
+            div.card
+                h3 Dance the way you like
+                div.card-box
+                    div.card-img
+                        img(src='static/img/2.png')
+                    div.card-content
+                        p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, in?
+            div.card
+                h3 Expert Choreographers
+                div.card-box
+                    div.card-img
+                        img(src='static/img/3.png')
+                    div.card-content
+                        p Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, in?
+        footer
+            | Copyright Ⓒ 2020 DanzikDanceAcadmey  All rights reserved
+        script
+            include ../static/index.js
